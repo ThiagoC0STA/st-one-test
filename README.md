@@ -71,4 +71,4 @@ O projeto utiliza **Tailwind CSS** para a estilização, garantindo um design mo
 
 ## 🙏 Agradecimentos
 
-Agradecimento especial à SE-One pelo suporte e inspiração no desenvolvimento deste projeto.
+Agradecimento especial à ST-One pelo suporte e inspiração no desenvolvimento deste projeto.
