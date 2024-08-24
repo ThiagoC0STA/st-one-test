@@ -8,60 +8,34 @@ Este projeto é uma interface web que consome um JSON de locais e exibe as infor
 
 Certifique-se de ter o **Node.js** instalado em sua máquina. Você pode verificar se o Node.js está instalado executando:
 
-\`\`\`bash
 node -v
-\`\`\`
 
 Se o Node.js não estiver instalado, você pode baixá-lo [aqui](https://nodejs.org/).
 
 ### Passo a Passo
 
 1. **Clone o repositório:**
-
-   \`\`\`bash
    git clone https://github.com/seu-usuario/seu-repositorio.git
    cd seu-repositorio
-   \`\`\`
 
 2. **Instale as dependências:**
 
    Dentro do diretório do projeto, execute:
 
-   \`\`\`bash
    npm install
-   \`\`\`
 
 3. **Inicie o servidor de desenvolvimento:**
 
    Execute o comando abaixo para iniciar o projeto em modo de desenvolvimento:
 
-   \`\`\`bash
    npm run dev
-   \`\`\`
 
 4. **Acesse a aplicação:**
-
    Abra seu navegador e acesse:
 
-   \`\`\`text
    http://localhost:3000
-   \`\`\`
 
 ## 📚 Documentação
-
-### Estrutura do Projeto
-
-\`\`\`bash
-src/
-├── components/ # Componentes React reutilizáveis
-├── data/ # Arquivos de dados e tipos
-│ ├── locations.ts # Mock dos dados JSON de locais
-│ └── types.ts # Definições de tipos em TypeScript
-├── pages/ # Páginas da aplicação
-│ └── page.tsx # Página principal que renderiza o menu e o conteúdo
-├── styles/ # Arquivos de estilos globais
-└── index.tsx # Ponto de entrada principal do React
-\`\`\`
 
 ### Funcionalidade Principal
 
@@ -79,35 +53,6 @@ A aplicação é composta por um menu que exibe uma lista hierárquica de locais
 
   - **renderMenu:** Função que renderiza o menu hierárquico de forma recursiva, garantindo que os locais filhos sejam corretamente aninhados.
 
-### Exemplos de Dados
-
-Os dados de locais são mockados em um arquivo TypeScript:
-
-\`\`\`typescript
-// src/data/locations.ts
-export const locations: Location[] = [
-{
-name: "Location 1",
-description: "Location 1 - Description",
-id: 1,
-parent: null
-},
-{
-name: "Location 2",
-description: "Location 2 - Description",
-id: 2,
-parent: null
-},
-{
-name: "Location 1.1",
-description: "Location 1.1 - Description",
-id: 3,
-parent: 1
-},
-// ... Outros locais
-];
-\`\`\`
-
 ### Estilização
 
 O projeto utiliza **Tailwind CSS** para a estilização, garantindo um design moderno e responsivo com foco na experiência em Dark Mode.
@@ -124,22 +69,6 @@ O projeto utiliza **Tailwind CSS** para a estilização, garantindo um design mo
 - **TypeScript**: Superset de JavaScript que adiciona tipagem estática ao código.
 - **Tailwind CSS**: Framework de CSS utilitário para estilização rápida e responsiva.
 
-## 📄 Licença
-
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-## ✉️ Contato
-
-Se você tiver alguma dúvida ou sugestão, fique à vontade para entrar em contato:
-
-- **Email:** seu-email@dominio.com
-- **GitHub:** [seu-usuario](https://github.com/seu-usuario)
-
 ## 🙏 Agradecimentos
 
 Agradecimento especial à SE-One pelo suporte e inspiração no desenvolvimento deste projeto.
-
----
-
-Obrigado por conferir este projeto! Se você gostou, considere dar uma ⭐️ no repositório.
-EOF
